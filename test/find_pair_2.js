@@ -46,3 +46,4 @@ function process(data){
 
 var out = process(sample_data);
 console.log(out);
+console.log(out.length);
