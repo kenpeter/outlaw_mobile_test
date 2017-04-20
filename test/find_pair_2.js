@@ -1,5 +1,6 @@
 // data
-var sample_data = [0, 1, 100, 99, 0, 10, 90, 30, 55, 33, 55, 75, 50, 51, 49, 50, 51, 49, 51]
+var sample_data = [1, 4, 5, 7, 8, 9];
+var the_diff = 3;
 
 // process
 function process(data){
@@ -22,7 +23,7 @@ function process(data){
 
       // add up is 100
       if(
-        (parseInt(a) + parseInt(b)) === 100 &&
+        Math.abs(parseInt(a) - parseInt(b)) === the_diff &&
         result.indexOf(a+","+b) == -1 &&
         result.indexOf(b+","+a ) == -1
       ) {
