@@ -59,7 +59,7 @@ function main(input) {
   */
 
   var output = myprocess(num_arr, parseInt(the_diff));
-  console.log(output);
+  //console.log(output);
   console.log(output.length);
 }
 
